@@ -10,7 +10,7 @@ from contextlib import asynccontextmanager
 # --- CONFIGURATION ---
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 DB_PATH = "./movie_db"
-LLM = "openai/gpt-oss-120b"
+LLM = "openai/gpt-oss-120b" # Change this if this one depcreciates :)
 
 # --- GLOBAL VARIABLES ---
 resources = {}
